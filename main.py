@@ -29,11 +29,11 @@ player_items = [{"item": potion, "quantity": 15}, {"item": hipotion, "quantity":
 
 # instantiate person
 player1 = Person("Sasuke :", 360, 65, 60, 34, player_spells, player_items)
-player2 = Person("Roronoa:", 360, 65, 60, 34, player_spells, player_items)
-player3 = Person("Vegeta :", 360, 65, 60, 34, player_spells, player_items)
+# player2 = Person("Roronoa:", 360, 65, 60, 34, player_spells, player_items)
+# player3 = Person("Vegeta :", 360, 65, 60, 34, player_spells, player_items)
 enemy = Person("PAIN", 1200, 65, 45, 25, [], [])
 
-players = [player1, player2, player3]
+players = [player1]
 
 running = True
 i = 0
@@ -44,7 +44,7 @@ while running:
     print("=====================")
 
     print("\n\n")
-    print("NAME                     HP                                  MP")
+    print("NAME                   HP                                  MP")
     for player in players:
         player.get_stats()
     print("\n")
