@@ -28,10 +28,10 @@ player_items = [{"item": potion, "quantity": 15}, {"item": hipotion, "quantity":
                 {"item": hielixer, "quantity": 2}, {"item": grenade, "quantity": 5}]
 
 # instantiate person
-player1 = Person("Sasuke :", 3260, 65, 60, 34, player_spells, player_items)
-player2 = Person("Roronoa:", 4160, 65, 60, 34, player_spells, player_items)
-player3 = Person("Vegeta :", 3089, 65, 60, 34, player_spells, player_items)
-enemy = Person("PAIN", 1200, 65, 1000, 25, [], [])
+player1 = Person("Sasuke :", 360, 65, 60, 34, player_spells, player_items)
+player2 = Person("Roronoa:", 360, 65, 60, 34, player_spells, player_items)
+player3 = Person("Vegeta :", 360, 65, 60, 34, player_spells, player_items)
+enemy = Person("PAIN", 1200, 65, 45, 25, [], [])
 
 players = [player1, player2, player3]
 
